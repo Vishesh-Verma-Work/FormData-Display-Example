@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 40px;
+}
+
+.container {
+    display: block;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    margin: 50px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+textarea {
+    height: auto;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+
+
+/* Your existing CSS code here... */
+
+.display-section {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.info {
+    /* display: block; */
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+p {
+    display: inline;
+}
+
+
+.da {
+    display: inline-block;
+}
+
+.code 
+{
+    text-align: start;
+}
