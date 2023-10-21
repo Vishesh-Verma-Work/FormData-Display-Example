@@ -22,7 +22,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     padding: 20px;
     width: 100%;
-    max-width: 500px;
+    max-width: 1000px;
     text-align: center;
     margin: 50px;
 }
@@ -75,7 +75,7 @@ button {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     padding: 20px;
     width: 100%;
-    max-width: 500px;
+    max-width: 1000px;
     text-align: left;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -102,6 +102,18 @@ p {
 }
 
 .code 
-{
+{   max-width: 1000px;
     text-align: start;
 }
+
+
+/* 
+@media (max-width : 600px) {
+    * {
+        font-size: 20px;
+    }
+
+    .display-section {
+        font-size: 10px;
+    }
+} */

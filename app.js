@@ -41,10 +41,8 @@ userForm.addEventListener("submit", function(event){
     displayEmail.innerText = data.Email;
     displaycomment.innerText = data.Comment;
 
-    // Convert the object to a JSON string
+   
     const jsonString = JSON.stringify(data, null, 2);
-    
-    // Display the JSON string in the "code" section
     code.innerText = jsonString;
 });
 
